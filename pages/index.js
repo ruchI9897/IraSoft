@@ -5,11 +5,10 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div className={styles.container}>
-      <div style={{display:'flex','justify-content': 'center','align-items': 'center','flex-direction': 'column'}}>
+      <div style={{display:'flex','justify-content': 'center','align-items': 'center','flex-direction': 'column', textAlign:'center'}}>
         <img src='undercons.jpg' width={'400px'}/>
-        <h1 style={{color:'#E63946', fontFamily:'fangsong'}}>Thanks for visiting, IraSoft will be live soon...</h1>
-        <h2 style={{fontFamily:'fangsong'}}>Stay tuned!!</h2>
-        <h3>Contact: jitendra@irasoft.in</h3>
+        <h1 style={{color:'#E63946', fontFamily:'fangsong'}}>Under Construction</h1>
+        <h2 style={{ fontFamily:'fangsong'}}>Contact: jitendra@irasoft.in</h2>
       </div>
     </div>
   )
